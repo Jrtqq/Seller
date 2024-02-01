@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NotTrading : ITrader
 {
-    int ITrader.NeededReputation { get; set; } = int.MinValue; //я без понятия как сделать сеттер привытным
+    int ITrader.NeededReputation { get; set; } = int.MinValue; //я без понятия как сделать сеттер приватным
 
     public void Trade() { }
 }
